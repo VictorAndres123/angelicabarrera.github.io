@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+body{
+    margin: 50px;
+}
+    
+    
+#contenedor{
+    width: 1200px;
+    height: 1300px;
+    background-color: bisque;
+}
+#encabezado{
+    width: 1100px;
+   height: 150px;
+   background-color: blueviolet;
+   margin: auto;
+    padding: 20px;
+}
+#menu{
+    width: 1100px;
+    height: 60px;
+    background-color: aqua;
+    margin: auto;
+    padding: 20px;
+}
+#cuerpo{
+    width: 1100px;
+    height: 700px;
+    background-color: aqua;
+    margin: auto;
+    padding: 20px;
+}
+#pie{
+    width: 1100px;
+    height: 50px;
+    background-color: aqua;
+    margin: auto;
+    padding: 20px;
+}
+#button{padding: 0;}
+#button li{
+    display: inline;
+ 
+}
+#button li{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: yellow;
+    background-color: rgb(251, 11, 143);
+}
+#button li a:hover{
+background-color: red;
+ font-family:"mistral";
+}
+#cuerpo {
+    background-color: aqua;
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: calc(100% - 12px);
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
+</style>
+<body>
+    
+    <div id="contenedor"> 
+    <br><br>
+        <div id="encabezado"> 
+            <center>
+            <table>
+                <td><img src="../imagenes/Captura.PNG"></td>
+                <td> Información y Ventas:   Llámenos YA! <br> 
+                    Móvil. +57 310 856 7670 (Sólo Llamadas)<br> 
+                    Whatsapp: +57 312 555 3710 (Sólo Mensajes)
+                    <br> <a href="https://web.whatsapp.com/">Whatsapp</a>
+                </td>
+            </table>
+        </center> 
+        </div>  
+         <br><br> 
+        <div id="menu"> 
+            <center> 
+                <ul id="button"> 
+                    <li><a href="file:///C:/Users/USUARIO/Documents/Aca%20pro/index.html">Inicio</a></li>
+                    <li><a href="file:///C:/Users/USUARIO/Documents/Aca%20pro/paginas/Nuestra%20Empresa.html">Nuestra empresa</a></li>
+                    <li><a href="file:///C:/Users/USUARIO/Documents/Aca%20pro/paginas/productos.html">Productos</a></li>
+                    <li><a href="file:///C:/Users/USUARIO/Documents/Aca%20pro/paginas/Contactenos.html">Contactenos</a></li>
+                </ul>
+            </center> 
+        </div><br><br>    
+        <div id="cuerpo"> 
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido *</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="email">Su e-mail *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa">
+
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                
+                <label for="extension">Ext:</label>
+                <input type="text" id="extension" name="extension">
+
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion">
+
+                <label for="mensaje">Escriba su mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div> <br><br>   
+        <div id="pie"> 
+            <p align="center">
+            ByteTech Solutions Angelica,Barrera·  Oficina. Av. Cra 30 No. 12A - 14 sur  ·   Bogotá - Colombia<br>
+Móvil. +57 311 856 7670 (Sólo Llámadas)  ·  Whatsapp: +57 319 407 5910 (Sólo Mensajes)  ·  barreraangelica864@gmail.com
+</p>
+        </div>    
+    </div>    
+
+    
+</body>
+</html>
